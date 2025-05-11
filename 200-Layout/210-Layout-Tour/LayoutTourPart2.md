@@ -7,8 +7,7 @@ Here we explore how to set up layouts in Smalltalk code.
 
 Along the way, we will introduce some tools as well.
 
-If you have not done so already, please read part 1, which includes instructions to get required Features:
-- https://github.com/Cuis-Smalltalk/Learning-Cuis/blob/master/LayoutTour.md
+If you have not done so already, [please read part 1](README.md), which includes instructions to get required Features.
 
 ### Getting Started
 
