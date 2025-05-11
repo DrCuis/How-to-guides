@@ -1,11 +1,14 @@
-# Tutorials
+# How-to guides
 
-* [Quick Tour](https://github.com/DrCuis/Learning-Cuis/blob/master/Quick-UI-Tour.md)
-  A quick warm-up to learn a bit the Cuis-Smalltalk system environment.
-* [The Cuis Book](https://drcuis.github.io/TheCuisBook), good first
-  reading when discovering Cuis and learning programming, particularly
-  the chapters 1 to 5.
-* [Design GUI with Morph](https://drcuis.github.io/DesignGUI). This
-  booklet guides the reader to learn how to build GUI application,
-  including several design iterations of a memory game. *Still
-  Work-In-Progress*.
+* **Drag and Drop.**
+   * [Understanding Drag and Drop Mechanics](/100-Drag-and-Drop/DragAndDrop.md)
+
+* **Packaging.**
+   * [How-to make a simple package](/300-Packaging)
+   * [The package](https://drcuis.github.io/TheCuisBook/The-Package.html) chapter from the *The Cuis Book*
+
+* **Layout in GUI.**
+   * [Layout Tour](/200-Layout/210-Layout-Tour)
+   * [Layout Calculation](/200-Layout/220-Layout-Calculation)
+   * [Layout components](https://drcuis.github.io/DesignGUI/Layout-components.html)
+
