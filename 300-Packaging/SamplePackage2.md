@@ -1,9 +1,7 @@
 Making a Simple Package for Cuis -- Part 2
 ================================
 
-This is a continuation of
-- https://github.com/Cuis-Smalltalk/Learning-Cuis/blob/master/SamplePackage1.md
-
+This is a continuation of [Sample Package, part 1](README.md)
 
 ### Quick Side Trip -- saving a screenShot.
 
@@ -357,5 +355,4 @@ So our next task is to go to the _instance_ side of the class and implement `IED
 
 ![Cuis Window](SamplePkg/IADict45.png)
 
-..which we will do in Part 3 of this tutorial
-- https://github.com/Cuis-Smalltalk/Learning-Cuis/blob/master/SamplePackage3.md
+..which we will do in [Part 3 of this tutorial](SamplePackage3.md)
