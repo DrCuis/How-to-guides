@@ -1,8 +1,7 @@
 Making a Simple Package for Cuis -- Part 3
 ================================
 
-This is a continuation of
-- https://github.com/Cuis-Smalltalk/Learning-Cuis/blob/master/SamplePackage2.md
+This is a continuation of  [Sample Package, part 2](SamplePackage2.md)
 
 ### Context
 
@@ -511,5 +510,4 @@ In part 4 we will look at refinements:
 - Font resize when the font preference changes
 - Adding a selection to the Open menu.
 
-On to 
-- https://github.com/Cuis-Smalltalk/Learning-Cuis/blob/master/SamplePackage4.md
+On to [Part 4 of this guide](SamplePackage4.md).

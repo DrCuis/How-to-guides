@@ -355,4 +355,4 @@ So our next task is to go to the _instance_ side of the class and implement `IED
 
 ![Cuis Window](SamplePkg/IADict45.png)
 
-..which we will do in [Part 3 of this tutorial](SamplePackage3.md)
+..which we will do in [Part 3 of this tutorial](SamplePackage3.md).

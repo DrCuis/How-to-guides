@@ -1,8 +1,7 @@
 Making a Simple Package for Cuis -- Part 4
 ================================
 
-This is a continuation of
-- https://github.com/Cuis-Smalltalk/Learning-Cuis/blob/master/SamplePackage3.md
+This is a continuation of [Sample Package, part 3](SamplePackage3.md)
 
 ### Add to the World->Open menu
 
