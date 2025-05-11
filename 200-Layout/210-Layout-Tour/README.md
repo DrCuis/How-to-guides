@@ -216,4 +216,4 @@ LayoutMorphs can be nested and given their own LayoutSpecs.
 
 In Part 2 on Layouts, we will look at the code for setting up layouts and exploring them by looking at the Color Editor tool.
 
-- https://github.com/Cuis-Smalltalk/Learning-Cuis/blob/master/LayoutTourPart2.md
+- [Read part 2](LayoutTourPart2.md)
