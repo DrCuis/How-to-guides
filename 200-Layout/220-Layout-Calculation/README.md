@@ -1,5 +1,6 @@
 # Cuis Layouts and their Calculation
 -----------------------------------
+*By Juan Vuletich*
 
 Cuis uses a Layout strategy which is different from many Smalltalks.  It is fairly simple to use once one understands the basics.
 
