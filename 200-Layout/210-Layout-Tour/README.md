@@ -1,5 +1,6 @@
 Exploring morph layouts in Cuis
 ===============================
+*by Ken Dickey*
 
 This file is about how graphic entities, **Morphs**, may change as they are resized.
 
