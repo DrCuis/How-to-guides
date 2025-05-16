@@ -77,14 +77,14 @@ If we had typed
   ColoredBoxMorph new ; color: Color blue;
 ````
 
-the #color: message would have been sent to the **ColoredBoxedMorph** class, the target of the original message.
+the #color: message would have been sent to the **ColoredBoxMorph** class, the target of the original message.
 
 ````Smalltalk
   ColoredBoxMorph new :: color: Color blue
 ````
 
-on the other hand sends #color: to the result of (ColoredBoxedMorph new), which is a new instance of a ColoredBoxedMorph.
-  Using a cascade with #yourself allows us to get the target receiver, the BoxedMorph, which is then the argument to #addMorph: message sent to our LayoutMorph.
+on the other hand sends #color: to the result of (ColoredBoxMorph new), which is a new instance of a ColoredBoxMorph.
+  Using a cascade with #yourself allows us to get the target receiver, the ColoredBoxMorph, which is then the argument to #addMorph: message sent to our LayoutMorph.
 
 Whew!  OK.  No more shortcuts.  But these two shortcuts, cascade and chain, are very useful.
 
@@ -144,7 +144,7 @@ EdgeWeight Botton and Update.
 
 ![Cuis Window](LayoutTour/Layout13.png)
 
-If you put your mouse pointer over the box on the Gap Between Morphs content will highlight. Type a value and it will overwrite what is already there. Put '10' in each box.
+If you put your mouse pointer over the box on the Gap Between Morphs content will highlight. Type a value and it will overwrite what is already there. Put '10' in this box.
 
 The press Update.
 
@@ -160,7 +160,7 @@ What else can we do with layouts?
 
 It turns out that each submorph can tell its containing LayoutMorph how it wants to be sized and placed within its layout.
 
-Command-click (Windows shift-button3) on the yellow ellipse to get its halo, select the blue circle for its context menu, and select 'edit my layoutspec'.
+Command-click (Windows shift-button3) on the yellow ellipse to get its halo, select the blue circle for its context menu, and select 'edit my LayoutSpec'.
 
 Note that the original command-click halos the outer Morph.  Each additional click halos the next innermost Morph.  The Morph name is in a label at the bottom of the halo.
 
@@ -196,7 +196,7 @@ Let's set the Width to a Fixed 80 pixels and the Height to 40% of the container,
 
 So when you resize the layout, the Ellipse keeps the same width, but its height is maintained at approxumately 40% of the LayoutMorph.
 
-Command click on the blue ColoredBoxedMorph, select 'edit my layoutspec' from its context menu, move the layoutspec edit panel aside and click on its push-pin.
+Command click on the blue ColoredBoxMorph, select 'edit my LayoutSpec' from its context menu, move the layoutspec edit panel aside and click on its push-pin.
 
 Now set its Height to Proportional 50% with a minimum of 10 pixels.  Perhaps a Proportional Width of 80% and min 30 pixels.  Click Update.
 
