@@ -1,7 +1,7 @@
 Exploring morph layouts in Cuis
 ===============================
 
-In LayoutTour.md we saw how LayoutMorphs and LayoutSpecs can be used to maintain layout relationships between Morphs in graphic code.
+In LayoutTour part 1, we saw how LayoutMorphs and LayoutSpecs can be used to maintain layout relationships between Morphs in graphic code.
 
 Here we explore how to set up layouts in Smalltalk code.
 
@@ -31,7 +31,7 @@ Thus we get a handy Color Editor.
 
 First of all, what do we have here?
 
-The goal of a good user interface is to provide visibility (What is here?) and control (What can I do with it?).
+The goal of a good user interface is to provide _visibility_ (What is here?) and _control_ (What can I do with it?).
 
 Color is a very complex concept and specifying colors on computers has some interesting and deep complexities
 
@@ -129,7 +129,7 @@ This method is a 'housekeeping' function.  It deselects the buttons which were n
 
 When a user interface event is generated, a message is sent to the appropriate object so that it can react.  More on events, below.  In this case, the editor is reacting to a click on a radio button. 
 
-One part of keeping the world ordered is to notify the editor's _model_ of changes.  Separating the bookkeeping for the editor or browser display and the editor or browser model  is a pattern you will see in a number of places.  
+One part of keeping the world ordered is to notify the editor's _model_ of changes.  Separating the bookkeeping for the editor or browser _display_ and the editor or browser _model_ is a pattern you will see in a number of places.  
 
 This separation of display and model allows one to have multiple views onto a consistent, shared model.
 
