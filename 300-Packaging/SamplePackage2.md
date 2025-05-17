@@ -13,9 +13,9 @@ Cuis comes with a ultility to save a screen image.  `Utilities saveScreenshot`.
 
 This will save a screen image with the default name of "CuisWorld.bmp".
 
-I just saved a bitmap image of the screen and its size is about 2 MegaBytes.
+I just saved a bitmap image of the screen and its size is about 4.5 MegaBytes.
 
-Saving the same image as a PNG (Portable Network Graphics) file is 236 KiloBytes in size, so you see why it is worthwhile to load a package to write PNG files.
+Saving the same image as a PNG (Portable Network Graphics) file is 368 KiloBytes in size, so you see why it is worthwhile to load a package to write PNG files.
 
 A useful thing to do at times is to save a Workspace text to a file.
 The blue circle at top shows a menu with a "Save As" option.
