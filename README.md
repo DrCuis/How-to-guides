@@ -12,8 +12,3 @@
    * [Layout Calculation](/200-Layout/220-Layout-Calculation)
    * [Layout components](https://drcuis.github.io/DesignGUI/Layout-components.html)
 
-* **Virtual Machine.**
-   * [The open Smalltalk VM](/800-VM/TheOpenSmalltalkVM.md) 
-   * [Build your own VM](/800-VM/BuildYourOwnVM.md)
-   * [How to build a Mac OS unified VM](/800-VM/HowToBuildMacUnifiedVM.md)
-   * [How to build a Cuis VM bundle](/800-VM/HowToBuildCuisVMBundle.md)
