@@ -220,7 +220,6 @@ Now require 'UI-Tools' and see what else shows up.
 Hey, much going on with this silly example, but this intro is getting
 much too long, so I will stop here.
 
-I hope you learning things, and importantly, how to have fun with this!!
+I hope you are learning, importantly, how to have fun with this!!
 
-
-
+Enjoy!
