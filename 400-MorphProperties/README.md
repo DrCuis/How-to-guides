@@ -16,7 +16,7 @@ Not everything is code centric.  It is good to look at UI-Tools.
  - Layout
  - Value Editing; propeties & meta-programming
 [SillyMorph](SillyMorph/README.md)
- - Fonts & Test: squeeze, label, ..
+ - Fonts & Text: squeeze, label, ..
  - Panels & WindowTitle
  - ...
 
