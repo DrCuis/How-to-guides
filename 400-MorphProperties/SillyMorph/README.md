@@ -152,7 +152,7 @@ Making the #emphasis: be #bold is also helpful.
 
 ![Cuis Window](SillyMorph11.png)
 
-Now we can make the Lable behave like a button.
+Now we can make the Label behave like a button.
 
 ![Cuis Window](SillyMorph12.png)
 
@@ -188,9 +188,10 @@ The required SillyMorph Package re-constitutes the Panel and it code.
 
 ### Why 2 Files?
 
-Saving live Smalltalk into an .obj file allows them to be re-created
+Saving a live Smalltalk Morph object into an .obj file
+allows it to be re-created
 later in another image, but we need to ensure that the _backing code_
-required to run them is present.
+required to run the code is present.
 
 You can (and should) look at the Morph>>SaveAsPackage: code
 if interested, but basically it creates a Package which, as you
@@ -219,7 +220,7 @@ Now require 'UI-Tools' and see what else shows up.
 Hey, much going on with this silly example, but this intro is getting
 much too long, so I will stop here.
 
-I hope you learned something, and importantly, have fun with this!!
+I hope you learning things, and importantly, how to have fun with this!!
 
 
 
