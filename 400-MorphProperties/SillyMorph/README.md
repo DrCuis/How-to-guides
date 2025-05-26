@@ -136,8 +136,6 @@ First, get a LabelMorph from the WorldMorph -> New Morph.. menu.
 
 Now use the LabelMorph's menu to change the Label's text to 'Click Me!'.
 
-![Cuis Window](SillyMorph10.png)
-
 Please embed the Label into the Panel.
 
 Make the LabelMorph's color: `Color red`.
