@@ -178,7 +178,7 @@ And #require: the #'SillyMorph' package which we just created.
 
 ![Cuis Window](SillyMorph17.png)
 
-The required SillyMorph Package re-constitutes the Panel and it code.
+The required SillyMorph Package re-constitutes the Panel and its code.
 
 ![Cuis Window](SillyMorph19.png)
 
@@ -189,7 +189,7 @@ The required SillyMorph Package re-constitutes the Panel and it code.
 Saving a live Smalltalk Morph object into an .obj file
 allows it to be re-created
 later in another image, but we need to ensure that the _backing code_
-required to run the code is present.
+is available for the reconstituted object.
 
 You can (and should) look at the Morph>>SaveAsPackage: code
 if interested, but basically it creates a Package which, as you
@@ -198,7 +198,7 @@ Morph.
 
 You can view the
 SillyMorph.pck.st (probably in the Cuis-Smalltalk-Dev-UserFiles
-directory) to see the mechanics.  This is pretty simple.
+directory) to see the mechanics.  This is a pretty simple package.
 
 ### Minimal Packages
 
@@ -216,7 +216,7 @@ Now require 'UI-Tools' and see what else shows up.
 ![Cuis Window](SillyMorph22.png)
 
 Hey, much going on with this silly example, but this intro is getting
-much too long, so I will stop here.
+long, so I will stop here.
 
 I hope you are learning, importantly, how to have fun with this!!
 
