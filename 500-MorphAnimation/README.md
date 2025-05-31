@@ -185,7 +185,7 @@ Try again, and..
 
 Great!  Celebrate success!!
 
-Let's save out image and go on to Part2 !
+Let's save our image and go on to Part2 !
 
 - [Read part 2](AnimatedStarPart2.md)
 
