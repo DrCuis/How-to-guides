@@ -12,3 +12,8 @@
    * [Layout Calculation](/200-Layout/220-Layout-Calculation)
    * [Layout components](https://drcuis.github.io/DesignGUI/Layout-components.html)
 
+* **Morph Properties**
+  * [Add behavior to individual Morphs](/400-MorphProperties/README.md)
+
+* **Step Animation for Morphs**
+  * [AnimatedStar](/500-MorphAnimation/README.md)
