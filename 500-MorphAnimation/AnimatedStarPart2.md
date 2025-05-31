@@ -12,7 +12,7 @@ Please read Part 1 first.
 
 By default, Morphs can be obtained via the World Menu >> new morph... submenus.
 
-We can get a new AnimatedMorph this way too.
+We can get a new AnimatedStar Morph this way too.
 
 ![Cuis Window](AnimatedStar22.png)
 
@@ -23,7 +23,7 @@ MorphClass>>includeInNewMorphMenu
 	"Return true for all classes that can be instantiated from the menu"
 	^ false
 ````
-In this case, we do want to be able to be created via new morph submenu.
+In this case, we _do_ want to be able to be created with a new morph submenu.
 
 Note that one can supply an #initializedInstance (browse implementors) but
 we don't need to do that, so we won't.
@@ -32,7 +32,7 @@ OK. We get a new morph, but we need to start stepping.
 
 ![Cuis Window](AnimatedStar23.png)
 
-One way to do this is via its morph menu >> debug... >> inspect morph .
+One way to do this is with its morph menu >> debug... >> inspect morph .
 
 ![Cuis Window](AnimatedStar24.png)
 
@@ -52,7 +52,7 @@ Now we can start stepping from the morph's menu without opening an inspactor.
 Looks good, but trying to select a moving Morph to get its menu is
 a problem.
 
-One way to do this is vai a Workspace.
+One way to do this is with a Workspace.
 
 Each class knows all of its instances, so we can ask the class to stop stepping
 its Morph instances.
@@ -98,8 +98,10 @@ We can change #drawOn: to do what we want.
 
 ![Cuis Window](AnimatedStar34.png)
 
-A new #step method can checl the #bounceCount and
+A new #step method can check the #bounceCount and
 either #animateAStep or #terminate.
+
+![Cuis Window](AnimatedStar35.png)
 
 I added a #maxBounce accessor to return 10 (bounces -- not shown,
 but you know what to do here).
@@ -111,7 +113,7 @@ The #terminate method is somewhat interesting.
 In this case we stop stepping, redraw ourselves to get a circle,
 and set an asynchronous timer to go off later to delete our instance.
 
-![Cuis Window](AnimatedStar35.png)
+![Cuis Window](AnimatedStar36.png)
 
 The #fork message sent to a Block invokes the Block on a new Thread.
 
@@ -125,11 +127,11 @@ You can play with different timeout values to see what looks good to you.
 
 We can keep the books up to date by incrementing #bounceCount in #animateAStep.
 
-![Cuis Window](AnimatedStar36.png)
+![Cuis Window](AnimatedStar37.png)
 
 #startStepping now needs to invoke our new #step method.
 
-![Cuis Window](AnimatedStar37.png)
+![Cuis Window](AnimatedStar38.png)
 
 OK.  Time to try things out.
 
