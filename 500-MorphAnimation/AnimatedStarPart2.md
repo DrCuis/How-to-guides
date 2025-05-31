@@ -45,7 +45,7 @@ selections to the Morph's menu.
 
 ![Cuis Window](AnimatedStar27.png)
 
-Now we can start stepping from the morph's menu without opening an inspactor.
+Now we can start stepping from the morph's menu without opening an inspector.
 
 ![Cuis Window](AnimatedStar28.png)
 
@@ -151,7 +151,7 @@ The only thing more fun than an AnimatedStar is a bunch of AnimatedStars!
 When we hit a wall, we can clone a copy of ourself and send it off
 in another direction.
 
-Since we just hit a wal, we can send the copy in the direction we came from
+Since we just hit a wall, we can send the copy in the direction we came from
 
 This is easy to do in #animateAStep.
 
@@ -213,7 +213,7 @@ animateAStep
     ].
 ````
 
-To set values in out copy, we need to add a couple of accessors
+To set values in our copy, we need to add a couple of accessors
 to update #myDelta: and #color:
 
 ![Cuis Window](AnimatedStar41.png)
