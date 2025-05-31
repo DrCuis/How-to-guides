@@ -2,7 +2,7 @@ Morph Animation Example: AnimatedStar
 =====================================
 *by Ken Dickey*
 
-This tutorial shows how to use timer events to animate a Morph.
+This tutorial shows how to use timer _step_ events to animate a Morph.
 
 We start by subclassing Morphic-Examples: Sample01Star Class.
 
