@@ -178,7 +178,7 @@ Fortunately, this is Smalltalk so is easy to fix.
 
 I just 
 - edit the code in place
-- save (Accept) it
+- Save it (cmd-s)
 - click the Restart button to back up the computation to the start of this stack frame (the start of this method)
 - click the Proceed button to continue from here
 
