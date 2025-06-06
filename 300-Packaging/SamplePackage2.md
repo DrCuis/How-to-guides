@@ -3,37 +3,6 @@ Making a Simple Package for Cuis -- Part 2
 
 This is a continuation of [Sample Package, part 1](README.md)
 
-### Quick Side Trip -- saving a screenShot.
-
-I mentioned in SamplePackage1.md that I had installed the 'Graphics-FIles-Additional' package.
-
-You can skip to the next section, but here I will explain a bit.
-
-Cuis comes with a ultility to save a screen image.  `Utilities saveScreenshot`.
-
-This will save a screen image with the default name of "CuisWorld.bmp".
-
-I just saved a bitmap image of the screen and its size is about 4.5 MegaBytes.
-
-Saving the same image as a PNG (Portable Network Graphics) file is 368 KiloBytes in size, so you see why it is worthwhile to load a package to write PNG files.
-
-A useful thing to do at times is to save a Workspace text to a file.
-The blue circle at top shows a menu with a "Save As" option.
-
-One can view such a file with a File List, select it, right-click to get the context menu, and select "workspace with contents".  One can now select saved code and Do-It.
-
-![Cuis Window](SamplePkg/IADict16.png)
-
-In this case the code creates a small invisible field at the top-left of the display which can be clicked on and, after a delay, writes a screen image as a PNG file and increments a counter so that each screenShot gets a different name.
-
-Saving information in Morph's properties allows one to have behavior specialized to an individual Morph.  In this case we don't need to share behavior among Morphs, so subclassing would be overwork.  Did I mention that I was lazy?
-
-Note that a new Smalltalk thread was "forked" to be able to wait while a user action can take place in the main thread.
-
-You don't have to understand or follow this right now, but it is sometimes handy to know how to do such things.
-
-OK, back to the tutorial..
-
 
 ### Package loading
 
@@ -41,7 +10,8 @@ It is good to understand how Cuis finds packages to load.
 
 Cuis looks in "standard places".  What places?  How do we find out?
 
-There is a useful tool that searched for selectors by partial name match.
+There is a useful tool that searched for selectors by partial
+name match.
 
 World Menu --> Open --> Message Names
 
@@ -49,7 +19,8 @@ I typed "findpack" to look for methods which find packages to load.
 
 In this case, there was only one method.
 
-Looking here, I noted 'placesToLookForPackagesDo:' and selected implementors.
+Looking here, I noted 'placesToLookForPackagesDo:' and
+selected implementors.
 
 ![Cuis Window](SamplePkg/IADict17.png)
 
