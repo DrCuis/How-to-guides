@@ -31,7 +31,7 @@ We will be following the recipies for developing with packages.
 The first step in developing a package is to get yourself an account on GitHub
 - https://github.com
 
-This step is not shown.
+This step is _not_ shown.
 
 When you have an account, creating a new repository is easy.
 
@@ -126,7 +126,7 @@ Command-Click on the World background to get a World Menu.
 
 The upper left _pane_ in the Browser lists class categories.
 
-We want to add a new class category.  Cmd-Click on this pane to gets it's context menu and select 'add item..'
+We want to add a new class category.  Cmd-Click on this pane to gets it's context menu and select 'Add Category...(a)' 
 
 ![Cuis Window](SamplePkg/IADict3.png)
 
@@ -181,15 +181,15 @@ between code-as-text and code-as-instructions.  We want always to
 be able to view code as text.  This greatly helps debugging.
 
 Cmd-click on the code pane to see the context menu.
-We can select 'Accept (s)'.  
+We can select 'Save (s)'.  
 
-If we did not wish to use the menu, we could just type Cmd-s (hold down the command key and press 's').  This is why the '(s)' in 'Accept (s)'.
+If we did not wish to use the menu, we could just type Cmd-s (hold down the command key and press 's').  This is why the '(s)' in 'Save (s)'.
 
 ![Cuis Window](SamplePkg/IADict6.png)
 
 Congratulations!  You have created a new Class!
 
-When you first add code, you will be asked for your intials.
+When you first add code, you will be asked for your initials.
 
 This lets the system annotate methods you create.
 Knowing who created a method lets others ask questions.
@@ -205,7 +205,7 @@ pane.
 
 ![Cuis Window](SamplePkg/IADict8.png)
 
-To (s)ave the class comment, I type Cmd-s (or use the context menu selection Accept).
+To (s)ave the class comment, I type Cmd-s (or use the context menu selection Save).
 
 
 ### Creating a Package and adding it to GitHub.
