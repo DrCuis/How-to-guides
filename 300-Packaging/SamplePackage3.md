@@ -97,11 +97,13 @@ Boy, there is a lot of red here!  Not to worry.  The code browser will help us o
 
 When I Cmd-s (Save), I find that I have some fixes to make.
 
+![Cuis Window](SamplePkg/IADict47b1.png)
+
 I accept undefined `testSizeUnit`, but I forgot to define `promptMorph` as an instance variable.
 
 No worries.  I can select 'declare instance' and the code is added to the class definition for me.  Nice this!
 
-![Cuis Window](SamplePkg/IADict47b.png)
+![Cuis Window](SamplePkg/IADict47b2.png)
 
 Oh, and 'entryTextMorph should be 'textEntryMorph'.  Right.
 
