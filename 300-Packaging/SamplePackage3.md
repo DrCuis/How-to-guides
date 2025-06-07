@@ -12,7 +12,7 @@ To review:
 ![Cuis Window](SamplePkg/Sample-Package-009.png)
 
 We will use Layouts as described in the Layout Tutorial
-- https://github.com/Cuis-Smalltalk/Learning-Cuis/blob/master/LayoutTour.md
+- https://github.com/DrCuis/How-to-guides/blob/main/200-Layout/210-Layout-Tour/README.md
 
 ### buildMorphicWindow
 
@@ -87,7 +87,7 @@ We want the prompt string to stick to the left of the layout, so we set the entr
 
 We will see how this works when we actually build and return a window.
 
-In the mean time, we need to Accept this code.
+In the mean time, we need to Save this code.
 
 Here is what the text above looks like when pasted in the code editor (just select the buildMorphicWindow text with Cmd-a and replace).
 
@@ -95,11 +95,17 @@ Here is what the text above looks like when pasted in the code editor (just sele
 
 Boy, there is a lot of red here!  Not to worry.  The code browser will help us out.
 
-When I Cmd-s (Accept), I find that I have some fixes to make.
+When I Cmd-s (Save), I find that I have some fixes to make.
 
 I accept undefined `testSizeUnit`, but I forgot to define `promptMorph` as an instance variable.
 
 No worries.  I can select 'declare instance' and the code is added to the class definition for me.  Nice this!
+
+![Cuis Window](SamplePkg/IADict47b.png)
+
+Oh, and 'entryTextMorph should be 'textEntryMorph'.  Right.
+
+![Cuis Window](SamplePkg/IADict47c.png)
 
 However..
 
@@ -121,7 +127,7 @@ You can do a text search to find such classes.  In a Linux shell this would be `
 
 ![Cuis Window](SamplePkg/IADict50.png)
 
-After loading the UI-Entry feature, we can Accept the code.  Note that the word `TextEntryMorph` turns from red to black to indicate it is now a known class name.
+After loading the UI-Entry feature, we can Save the code.  Note that the word `TextEntryMorph` turns from red to black to indicate it is now a known class name.
 
 Also, you can use a FileList to open a Package Browser to view code in a package ***without loading it*** into your image.
 
