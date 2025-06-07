@@ -99,7 +99,8 @@ When I Cmd-s (Save), I find that I have some fixes to make.
 
 ![Cuis Window](SamplePkg/IADict47b1.png)
 
-I accept undefined `testSizeUnit`, but I forgot to define `promptMorph` as an instance variable.
+I accept undefined `testSizeUnit`, but
+I forgot to define `promptMorph` as an instance variable.
 
 No worries.  I can select 'declare instance' and the code is added to the class definition for me.  Nice this!
 
@@ -257,10 +258,7 @@ makeResultsArea
 				indexGetter: #resultIndex
 				indexSetter: #resultIndex: .
 					
-	^resultMorph mainView: self
-		     menuGetter: nil
-		     keystrokeAction: #resultsKey:from: ;
-		     layoutSpec: (LayoutSpec proportionalWidth: 1.0
+	^resultMorph layoutSpec: (LayoutSpec proportionalWidth: 1.0
 					    proportionalHeight: 0.98);  
 		     color: (Theme current textHighlight);
 		     yourself
@@ -321,9 +319,13 @@ The debugger is our friend!
 
 ### IEDict instance variables
 
-The first thing I need to do is add instance variables so that our IEDict model instance knows and keeps track of its searchString, searchResult, and resultIndex.
+The first thing I need to do is add instance variables so that our IEDict model instance knows and keeps track of
+its _searchString_, _searchResult_, and _resultIndex_.
 
 I also need to add method class `accessing` and the methods to get and set the values for these.
+
+If I forgot to add the instance variables first, I can always
+just select 'declare instance' in the Unknown Variable menu.
 
 ### method category: `accessing`
 
@@ -424,8 +426,8 @@ Let's click on a button and...
 Ah.  We need `accessing` methods in IEDictWindow as well.
 
 ````Smalltalk
-entryTextMorph
-	^entryTextMorph
+textEntryMorph
+	^textEntryMorph
 
 promptMorph
 	^ promptMorph
@@ -439,7 +441,7 @@ And importantly:
 ````Smalltalk
 searchString
 
-	^ entryTextMorph contents asString 
+	^ textEntryMorph contents asString 
 ````
 
 ![Cuis Window](SamplePkg/IADict64.png)
@@ -507,7 +509,7 @@ searchResultsChanged
 	resultMorph updateList 
 ````
 
-OK.  Let's click on some buttons!!
+OK.  Let's open a new IEDictWindow and click on some buttons!!
 
 ![Cuis Window](SamplePkg/IADict65.png)
 
