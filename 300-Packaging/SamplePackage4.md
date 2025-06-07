@@ -5,8 +5,6 @@ This is a continuation of [Sample Package, part 3](SamplePackage3.md)
 
 ### Add to the World->Open menu
 
-*** The Menu code is being updated -- skip to: A Bit Of Color ***
-
 The next thing I am going to do is add a selection to the Open menu to open an IEDictWindow.  
 
 There are several reasons for this.
@@ -20,26 +18,25 @@ Also, adding a menu item is easy.  Just add a method to the class side of your b
 ````Smalltalk
 worldMenuOptions
 
-	"Answer the information required to add me to the World menu-->Open.. submenu"
-	"i.e. an array with one item: a Dictionary"
-	| arr |
-	arr := `{{
-			#submenuOf 	-> TheWorldMenu openLabel.
-			#itemGroup 	-> 10.
-			#itemOrder 	-> 20.
-			#label 		-> 'IA<-->EN'.
-			#object 	-> IEDictWindow.
-			#selector 	-> #open.
-			#balloonText	-> 'Interlingua<-->English Lookup'.
-		} asDictionary}`.
-	(arr at: 1) at: #icon put: self searchIcon.
-	^arr
+	"Answer the information required to add me
+	 to the World menu-->Open.. submenu.
+	 This is presented as a Dictionary"
+	^ `{{	#submenuOf 	-> TheWorldMenu openLabel.
+		#itemGroup 	-> 10.
+		#itemOrder 	-> 20.
+		#label 		-> 'IA<-->EN'.
+		#object 	-> IEDictWindow.
+		#selector 	-> #open.
+		#icon		-> self searchIcon.
+		#balloonText	-> 'Interlingua<-->English Lookup'.
+	   } asDictionary}`.
 ````
 
 ````Smalltalk
 searchIcon
 
-	^ Theme content from: 'Theme' get: {'16x16'. 'actions'. 'system-search.png'}
+	^ Theme content from: 'Theme'
+	  	get: {'16x16'. 'actions'. 'system-search.png'}
 ````
 
 ![Cuis Window](SamplePkg/Sample-Package-060.png)

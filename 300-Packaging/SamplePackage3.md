@@ -451,7 +451,8 @@ Now we can click on the buttons without bringing up the debugger, but something 
 
 How do we fix this?
 
-We have to go back to the idea of separating a _model_ from a _view_ onto that model.
+We have to go back to the idea of separating a ***model***
+from a ***view*** onto that model.
 
 The basic idea is that these are separated so that one can have multiple views of the same model.  The model, to be separate, should ***not*** have to know anything about views.
 
