@@ -8,7 +8,7 @@ This is a continuation of  [Sample Package, part 2](SamplePackage2.md)
 To review: 
 - We are about to put together a SystemWindow.
 - To do this we are writing the method IEDictWindow>>buildMorphicWindow
-- The Window should look something like
+- The finished Window should look something like
 ![Cuis Window](SamplePkg/Sample-Package-009.png)
 
 We will use Layouts as described in the Layout Tutorial
@@ -25,9 +25,14 @@ So let's write this down.
 
 ![Cuis Window](SamplePkg/IADict46.png)
 
-Note that when I Accept this method, I get repeated warnings about undefined methods and options to change the text to known methods. 
+Note that when I Save this method, I get repeated warnings
+about undefined methods and options to change the text to known methods. 
 
-I just pick the unknown selector at the top line of the menu (the original text), in each case, to confirm that this is the choice I want.
+I just pick the unknown selector at the top line
+of the menu (the original text), in each case,
+to confirm that this is the choice I want.
+
+These methods really _are_ undefined!  ;^)
 
 OK.  Let's define all those methods.
 

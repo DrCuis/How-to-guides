@@ -125,7 +125,7 @@ initialize
 ![Cuis Window](SamplePkg/IADict24.png)
 
 
-When I Accept this, I am adding code for the first time since the image started, so the code browser asks who I am.  This is so that my initials get placed into the code's meta-data.  
+When I Save this, I am adding code for the first time since the image started, so the code browser asks who I am.  This is so that my initials get placed into the code's meta-data.  
 
 If you are unknown to the code browser, you may be asked to add your initials.  Please do so!
 
@@ -293,16 +293,18 @@ These will be Morphs, graphical screen objects.
 
 ![Cuis Window](SamplePkg/IADict38.png)
 
-One has to Accept (save) the definition in the Class Definition pane before adding text to the Class Comment.
+One has to Save the definition in the Class Definition pane
+before adding text to the Class Comment.
 
-As the _SystemWindow_ class exists one can type 'Sys', hit the TAB key, and select 'SystemWindow' from the popup select-list.
+As the _SystemWindow_ class exists one can type 'Sys', hit the
+TAB key, and select 'SystemWindow' from the popup select-list.
 
 
 ### Opening a IEDictWindow (a new instance)
 
 We want to open a new IEDictWindow by asking its class to make one.
 
-The first step is to add a method category to the class side
+The first step is to add a method category to the _class_
 
 ![Cuis Window](SamplePkg/IADict39.png)
 
@@ -326,4 +328,4 @@ So our next task is to go to the _instance_ side of the class and implement `IED
 
 ![Cuis Window](SamplePkg/IADict45.png)
 
-..which we will do in [Part 3 of this tutorial](SamplePackage3.md).
+..which we continue in [Part 3 of this tutorial](SamplePackage3.md).
