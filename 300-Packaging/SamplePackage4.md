@@ -220,8 +220,6 @@ initialExtent
 
 When we select a font size and open an IEDictWindow, it scales itself to the font we use.
 
-![Cuis Window](SamplePkg/IADict77.png)
-
 ![Cuis Window](SamplePkg/IADict79.png)
 
 
