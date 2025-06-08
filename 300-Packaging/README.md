@@ -3,10 +3,11 @@ Making a Simple Package for Cuis
 *by Ken Dickey*
 
 This is a tutorial which shows in detail the process
-of creating a simple package in Cuis Smalltalk
+of creating a package in Cuis Smalltalk
 and making it shareable on GitHub.
 
-Package creation hilights UI tools and techniques.
+Package creation hilights UI tools and techniques, including
+exploration and debugging.
 
 ### Basic Orientation
 
