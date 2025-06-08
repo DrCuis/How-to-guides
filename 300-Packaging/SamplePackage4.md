@@ -192,7 +192,7 @@ Now we know we can play with colors to get whatever we want want.
 
 ### Font Resize
 
-World menu->Preferences->Font Sizes lets one select a font size which works well with one's screen size and resolution -- or to set a large font for a demo or talk.
+World menu->Preferences->Size of GUI elements  lets one select a font size which works well with one's screen size and resolution -- or to set a large font for a demo or talk.
 
 ![Cuis Window](SamplePkg/IADict75.png)
 
@@ -259,9 +259,11 @@ fontPreferenceChanged
   self morphExtent: (self morphExtent max: self initialExtent).
 ````
 
+![Cuis Window](SamplePkg/IADict82.png)
+
 Let's try again.  Set the font preference to Small, open an IEDictWindow, set to Huge.
 
-![Cuis Window](SamplePkg/IADict82.png)
+![Cuis Window](SamplePkg/IADict82b.png)
 
 Ah!  Much better!  Celebrate success!
 

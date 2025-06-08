@@ -75,7 +75,7 @@ makeEntryArea
 		yourself
 ````
 
-The height of this LayoutMorph is calculated based on the text size.  One can change the text size via World menu-->Preferences-->Font Sizes.  Don't worry about this for now.  It takes some experimenting to get it right.  More on this later..
+The height of this LayoutMorph is calculated based on the text size.  One can change the text size via World menu-->Preferences-->Size of GUI elements.  Don't worry about this for now.  It takes some experimenting to get it right.  More on this later..
 
 We have to set up how the window fields change when resized.  Part of this is by using LayoutSpec's.  We actually measure the size of the promptMorph's string to set this here.
 
