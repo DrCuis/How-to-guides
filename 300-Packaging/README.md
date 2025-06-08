@@ -6,8 +6,11 @@ This is a tutorial which shows in detail the process
 of creating a package in Cuis Smalltalk
 and making it shareable on GitHub.
 
-Package creation hilights UI tools and techniques, including
-exploration and debugging.
+While the application is simple,
+this Package creation tutorial hilights development 
+UI tools and techniques, including layout usage,
+code exploration, debugging, menus, font scaling,
+and so forth.
 
 ### Basic Orientation
 
