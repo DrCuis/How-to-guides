@@ -5,15 +5,19 @@ This is a continuation of [Sample Package, part 3](SamplePackage3.md)
 
 ### Add to the World->Open menu
 
-The next thing I am going to do is add a selection to the Open menu to open an IEDictWindow.  
+The next thing I am going to do is add a selection
+to the Open menu to open an IEDictWindow.  
 
 There are several reasons for this.
 
-For one thing, when one has dictionaries or other useful browsers it is good to have them available where they can be found.
+For one thing, when one has dictionaries or other useful
+browsers it is good to have them available where they can be found.
 
-Another reason is that I keep opening an IEDictWindow and I want to make this easy.  (Did I tell you I was lazy?)
+Another reason is that I keep opening an IEDictWindow and
+I want to make this easy.  (Did I tell you I was lazy?)
 
-Also, adding a menu item is easy.  Just add a method to the class side of your browser class.  In our case, IEDictWindow class.
+Also, adding a menu item is easy.  Just add a method to the
+class side of your browser class.  In our case, IEDictWindow class.
 
 ````Smalltalk
 worldMenuOptions
@@ -27,19 +31,14 @@ worldMenuOptions
 		#label 		-> 'IA<-->EN'.
 		#object 	-> IEDictWindow.
 		#selector 	-> #open.
-		#icon		-> self searchIcon.
+		#icon		-> #findIcon.
 		#balloonText	-> 'Interlingua<-->English Lookup'.
 	   } asDictionary}`.
 ````
 
-````Smalltalk
-searchIcon
-
-	^ Theme content from: 'Theme'
-	  	get: {'16x16'. 'actions'. 'system-search.png'}
-````
 
 ![Cuis Window](SamplePkg/Sample-Package-060.png)
+
 ![Cuis Window](SamplePkg/Sample-Package-061.png)
 
 Hey, do I like easy!
@@ -51,10 +50,11 @@ You can hilight `worldMenuOptions` and Cmd-n (seNders) or Cmd-m (iMplementors) t
 
 OK. Let's fix the color a bit.  I want a different background color.
 
-I am going to write a method to return the background color so that I can try out a few different colors.
+I am going to write a method to return the background color
+so that I can try out a few different colors.
 
-For IEDictWindow I create a method category `color` and add the method
-
+For IEDictWindow I create an instance method category `color` and
+add the method
 ````Smalltalk
 backgroundColor
 
@@ -85,11 +85,12 @@ buildMorphicWindow
 
 Now to open an new window from the Open menu and ...
 
-![Cuis Window](SamplePkg/IADict67.png)
+![Cuis Window](SamplePkg/IADict67b.png)
 
 Nothing changed?  Huh?
 
-This just goes to show that we need to flexible and nimble enough to deal with the unexpected.
+This just goes to show that we need to flexible and nimble enough
+to deal with the unexpected.
 
 Let's look around a bit.
 
@@ -160,7 +161,9 @@ Open a new IEDictWindow and...
 
 This is starting to look pretty good.
 
-Now, rather than change the `SystemWindow>>openInWorld` method, I am going to set some color values ***after*** `openInWorld` has been invoked.
+Now, rather than change the `SystemWindow>>openInWorld` method,
+I am going to set some color values ***after*** `openInWorld` has
+been invoked.
 
 We can do this in `IEDictWindow class>>open`
 ````Smalltalk
