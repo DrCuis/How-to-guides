@@ -6,11 +6,13 @@ Not everything is code centric.  It is good to look at UI-Tools.
 
 - What Morphs are there?
 
-In addition to the ***Morphic** Class Category in the base
+In addition to the ***Morphic*** Class Category in the base
+
 Cuis image, there are many useful GUI compoments in
+
  -- https://github.com/Cuis-Smalltalk/Cuis-Smalltalk-UI 
 
-You can conveniently browse UI Class Categories if you open a Workspace and
+You can conveniently browse ***UI*** Class Categories if you open a Workspace and
 ````Smalltalk
   Feature require: 'UI-Tools'.
 ````
@@ -27,8 +29,11 @@ You can conveniently browse UI Class Categories if you open a Workspace and
  - Color
 
 Color perception and computer usage is quite complex
+
  -- https://en.wikipedia.org/wiki/Color
+
  -- https://en.wikipedia.org/wiki/Color_model
+
  -- https://en.wikipedia.org/wiki/RGB_color_model
 
 ````Smalltalk
