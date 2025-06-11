@@ -46,6 +46,11 @@ Browse classes: Class Color, TranslucentColor
 
 Read class comments of: Color, Form, ColorPaneMorph
 
+Watch a couple of useful videos
+
+ -- Color_1 https://www.youtube.com/watch?v=MUbt0z1ZY8o
+
+ -- Color_2 https://www.youtube.com/watch?v=Sub9TNTMgIA
 
 
  - Layout
