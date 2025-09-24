@@ -1,5 +1,6 @@
 Understanding Drag and Drop Mechanics
 =====================================
+*by Ken Dickey*
 
 Event driven code allows multiple objects to interact without direct contact.
 
